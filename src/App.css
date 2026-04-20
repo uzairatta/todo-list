@@ -1,0 +1,121 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.todo-div {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.todo-container {
+  background-color: #4caf50;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  gap: 20px;
+}
+
+.todo-container h2 {
+  margin: 0;
+  color: white;
+  font-size: 18px;
+}
+
+/* Edit Mode Styles */
+.edit-mode {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid #ff9800;
+  font-size: 16px;
+}
+
+.edit-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-edit {
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn-edit:hover {
+  background-color: #e68900;
+}
+
+.btn-delete {
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: #d32f2f;
+}
+
+.btn-save {
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-save:hover {
+  background-color: #0b7dda;
+}
+
+.btn-cancel {
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: #9e9e9e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-cancel:hover {
+  background-color: #757575;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  padding: 8px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
